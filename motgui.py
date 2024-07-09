@@ -13,7 +13,7 @@ def select_box(event, x, y, flags, param):
 class MOTGUI(KFSystem):
 
 	def __init__(self, nms_threshold = None, frame_width = None, frame_height = None, score_threshold = 0.7, tolerance = 4, show_suppressed = False):
-		super.__init__(nms_threshold, 
+		super().__init__(nms_threshold, 
 			frame_width, 
 			frame_height, 
 			score_threshold, 
